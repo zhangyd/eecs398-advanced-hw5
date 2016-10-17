@@ -29,6 +29,7 @@ def calculate(myarg):
 	return stack.pop()
 
 def main():
+	print("Hello, I am a RPN calculator. How can I help you?")
 	while True:
 		result = calculate(input("rpn calc> "))
 		print("Result: ", result)
